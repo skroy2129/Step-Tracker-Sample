@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+    color: #f6e0df;
+    font-size: 40px;
+}
+body{
+    background-color: #feb3ac;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#step_count{
+    border: 50px solid rgb(146, 175, 184);
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#time-passed{
+    text-align: center;
+    font-size: 40px;
+    color: honeydew;
+    margin-bottom: 10px;
+}
+
+#step_no{
+    font-size: 50px;
+    color: #f6e0df;
+    text-align: center;
+}
+
+.chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#no_of_steps{
+    font-size: 20px;
+    width: 80px;
+}
+
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px; 
+    cursor: pointer;  
+}
+
+.make{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden{
+    visibility: hidden;
+}
